@@ -25,7 +25,7 @@ const Footer = () => {
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 2 }}>
               <img 
                 src={mlogo} 
-                alt="Innovex Engineering Logo" 
+                alt="Tvesha Groups Logo" 
                 style={{ 
                   height: '100px', 
                   width: '150px',
@@ -42,7 +42,7 @@ const Footer = () => {
                   display: { xs: 'none', sm: 'inline-block' } // Hide on mobile if needed
                 }}
               >
-                Innovex Engineering
+                Tvesha Groups
               </Typography> */}
             </Box>
 
@@ -206,7 +206,7 @@ const Footer = () => {
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
               <Email sx={{ color: '#13c46e', fontSize: '1.2rem' }} />
               <Link
-                href="mailto:info@innovexengineering.com"
+                href="mailto:info@tveshagroup.com"
                 underline="none"
                 sx={{ 
                   color: 'rgba(255,255,255,0.7)', 
@@ -218,7 +218,7 @@ const Footer = () => {
                   }
                 }}
               >
-                info@innovexengineering.com
+                info@tveshagroup.com
               </Link>
             </Box>
 
@@ -275,7 +275,7 @@ const Footer = () => {
         color: 'rgba(255,255,255,0.4)',
         fontSize: '0.75rem'
       }}>
-        © {new Date().getFullYear()} Innovex Engineering. All rights reserved.
+        © {new Date().getFullYear()} Tvesha Groups. All rights reserved.
       </Typography>
     </Box>
   );

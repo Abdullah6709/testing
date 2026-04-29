@@ -149,7 +149,7 @@ const Navbar = () => {
             }}
           >
             <Link
-              href="mailto:info@innovexengineering.com"
+              href="mailto:info@tveshagroup.com"
               underline="none"
               sx={{
                 display: "flex",
@@ -162,7 +162,7 @@ const Navbar = () => {
               }}
             >
               <Email sx={{ fontSize: '1.2rem' }} />
-              support@innovexengineering.com
+              support@tveshagroup.com
             </Link>
 
             <Link

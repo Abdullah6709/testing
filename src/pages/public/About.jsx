@@ -216,7 +216,7 @@ const About = () => {
       fontSize: { xs: '0.95rem', sm: '1rem' },
     }}
   >
-    Innovex Engineering 2022 is a diversified group based in Gujarat, India,
+   Tvesha Groups 2022 is a diversified group based in Gujarat, India,
     with world-class, fully integrated infrastructure. It is a CE-certified, 100%
     'Make in India' organization focused on multi-engineering disciplines such
     as design, metallurgy, fabrication, machining, infrastructure, and turnkey
@@ -233,9 +233,9 @@ const About = () => {
       fontSize: { xs: '0.95rem', sm: '1rem' },
     }}
   >
-    Innovex Engineering is backed by six decades of enviable history and a
+    Tvesha Groups is backed by six decades of enviable history and a
     reputation for delivering effective, economical, and environmentally efficient
-    solutions. The Innovex Engineering brand is known for its uncompromising quality,
+    solutions. The Tvesha Groups brand is known for its uncompromising quality,
     indigenous technology, and innovation through its dedicated service to all its customers.
   </Typography>      
   

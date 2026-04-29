@@ -24,7 +24,7 @@ const Ourindustary = () => {
               fontWeight: 700,color:'#6724ec'
             }}
           >
-            Innovex Engineering
+            Tvesha Groups
           </Typography>
 
           <Typography

@@ -83,7 +83,7 @@ const Service = () => {
         ))}
 
         <Typography variant="body1" sx={{ mt: 3 }}>
-          At <strong>Innovex Engineering</strong>, we don’t just build systems—we engineer the future.
+          At <strong>Tvesha Groups</strong>, we don’t just build systems—we engineer the future.
           <br />
           Partner with us for reliable, innovative, and scalable engineering solutions.
         </Typography>
