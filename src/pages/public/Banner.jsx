@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
-import slide1 from '../../assets/images/main-slider/image-1.jpg';
-import slide2 from '../../assets/images/main-slider/image-2.jpg';
-import slide3 from '../../assets/images/main-slider/image-3.jpg';
+import slide1 from '../../assets/images/main-slider/image-01.jpeg';
+import slide2 from '../../assets/images/main-slider/image-02.jpeg';
+import slide3 from '../../assets/images/main-slider/image-03.jpeg';
 import { Box, Typography, Button, useTheme, useMediaQuery } from '@mui/material';
 import AOS from 'aos';
 import 'aos/dist/aos.css';

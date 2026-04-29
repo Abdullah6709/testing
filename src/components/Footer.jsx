@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Grid, Typography, Link, Button, TextField } from '@mui/material';
 import { Email, Phone, LocationOn } from '@mui/icons-material';
+import mlogo from "../assets/newlogo.jpeg";
 
 const Footer = () => {
   return (
@@ -16,21 +17,34 @@ const Footer = () => {
         justifyContent: 'space-around'
       }}
     >
-      <Grid container spacing={6} alignItems="flex-start"> {/* Changed to align at top */}
+      <Grid container spacing={6} alignItems="flex-start">
         {/* Left Column */}
         <Grid item xs={12} md={4}>
           <Box sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
-          <Typography
-  variant="h5"
-  sx={{
-    fontWeight: 700,
-    mb: 2,
-    color: '#5e17eb', // Just normal text color
-    display: 'inline-block'
-  }}
->
-  Innovex Engineering
-</Typography>
+            {/* Logo and Text Container */}
+            <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 2 }}>
+              <img 
+                src={mlogo} 
+                alt="Innovex Engineering Logo" 
+                style={{ 
+                  height: '100px', 
+                  width: '150px',
+                  objectFit: 'contain', // Ensures logo maintains aspect ratio
+                  // Remove the filter that was making it invisible
+                  // filter: 'brightness(0) invert(1)', 
+                }} 
+              />
+              {/* <Typography
+                variant="h5"
+                sx={{
+                  fontWeight: 700,
+                  color: '#5e17eb',
+                  display: { xs: 'none', sm: 'inline-block' } // Hide on mobile if needed
+                }}
+              >
+                Innovex Engineering
+              </Typography> */}
+            </Box>
 
             <Typography variant="body1" sx={{ 
               color: 'rgba(255,255,255,0.7)', 
@@ -39,8 +53,6 @@ const Footer = () => {
             }}>
               Empowering industry through cutting-edge innovation and sustainable technology solutions.
             </Typography>
-            
-            
           </Box>
         </Grid>
 
@@ -69,7 +81,7 @@ const Footer = () => {
                 borderRadius: 2
               }
             }}>
-              support
+              Support
             </Typography>
             <Typography
               variant="body2"
@@ -131,11 +143,9 @@ const Footer = () => {
                   py: 1,
                   fontWeight: 600,
                   textTransform: 'none',
-                  // boxShadow: '()',
                   transition: 'all 0.3s ease',
                   '&:hover': {
                     transform: 'translateY(-2px)',
-                    // boxShadow: '0 6px 20px rgba(19, 196, 110, 0.4)',
                     background: '#13c46e',
                   },
                 }}
@@ -164,10 +174,9 @@ const Footer = () => {
                 content: '""',
                 position: 'absolute',
                 bottom: -8,
-                right: 0,
+                left: 0,
                 width: 40,
                 height: 2,
-                // background: 'linear-gradient(90deg, #00d4ff, #13c46e)',
                 borderRadius: 2
               }
             }}>
@@ -235,7 +244,7 @@ const Footer = () => {
             <Button
               variant="outlined"
               sx={{
-                mt: 'auto', // Pushes button to bottom
+                mt: 'auto',
                 alignSelf: { xs: 'center', md: 'flex-start' },
                 color: '#5817eb',
                 borderColor: '#5817eb',
@@ -272,4 +281,4 @@ const Footer = () => {
   );
 };
 
-export default Footer; 
+export default Footer;

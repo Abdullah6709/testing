@@ -17,7 +17,7 @@ import Service from '../pages/public/Service'
 export default function PublicRoutes() {
   return (
     <>
-      <ScrollerTop /> {/* ✅ Add this before Routes */}
+      <ScrollerTop /> 
       <Routes>
         <Route path='/' element={<PublicLayout />}>
           <Route index element={<Home />} />
